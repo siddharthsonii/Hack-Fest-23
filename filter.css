@@ -1,0 +1,68 @@
+.pipe {
+  color: #061f19; }
+
+.link-disabled {
+  color: #6f7372; }
+
+.outlined-btn {
+  border-radius: 4px;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  background-color: rgba(228, 231, 228, 0.3);
+  border: 1px solid #c9cec9; }
+
+.outlined-btn-orange {
+  border: 1px solid #ff6f00;
+  background-color: rgba(255, 111, 0, 0.1); }
+
+.cursor-default {
+  cursor: default !important; }
+
+.filter-chips-wrapper {
+  display: flex;
+  flex-direction: row;
+  padding-left: 1rem;
+  flex-wrap: wrap;
+.outlined-btn-orange {
+  border: 1px solid #ff6f00;
+  background-color: rgba(255, 111, 0, 0.1); }
+
+.cursor-default {
+  cursor: default !important; }
+
+.filter-chips-wrapper {
+  display: flex;
+  flex-direction: row;
+  padding-left: 1rem;
+  flex-wrap: wrap;
+.outlined-btn-orange {
+  border: 1px solid #ff6f00;
+  background-color: rgba(255, 111, 0, 0.1); }
+
+.cursor-default {
+  cursor: default !important; }
+
+.filter-chips-wrapper {
+  display: flex;
+  flex-direction: row;
+  padding-left: 1rem;
+  flex-wrap: wrap;
+  align-items: center; }
+
+.filter-caption-div {
+  display: flex;
+  align-items: center;
+  color: #061F19;
+  font-size: 0.875rem;
+  line-height: 1rem;
+  margin-left: 0.5rem; }
+
+.filter-chip-box {
+  display: flex;
+  flex-direction: row;
+  border-radius: 4px;
+  background-color: #DDE0DF;
+  padding: 0.25rem 0.5rem;
+  max-width: 12rem;
+  margin: 0.5rem;
+  cursor: pointer; }

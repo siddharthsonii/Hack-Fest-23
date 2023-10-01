@@ -1,0 +1,147 @@
+#include<bits/stdc++.h>
+using namespace std;
+#define ll long long
+int main(){
+    ll p,d;
+    cin>>p>>d;
+    vector<vector<ll>> data(d,vector<ll>(p));
+    for(ll i=0;i<d;i++)
+        for(ll j=0;j<p;j++)
+            cin>>data[i][j];
+ 
+    for(ll i=1;i<d;i++){
+        ll maxx=0,l=-1,r=-1;
+        for(ll j=1;j<=p;j++){
+            for(ll k=j;k<=p;k++){
+                if(pos[j-1]!=pos[k+1]){
+                    ll sum=0;
+                    for(ll z=j-1;z<=k-1;z++){
+                        sum+=(data[pos[z+1]][z]-data[i][z]);
+                    }
+                    if(sum>maxx){           for(ll k=j;k<=p;k++){
+                if(pos[j-1]!=pos[k+1]){
+                    ll sum=0;
+                    for(ll z=j-1;z<=k-1;z++){
+                        sum+=(data[pos[z+1]][z]-data[i][z]);
+                    }
+                       vector<ll> pos(p+2);
+        ll maxx=0,l=-1,r=-1;
+        for(ll j=1;j<=p;j++){
+            for(ll k=j;k<=p;k++){
+                if(pos[j-1]!=pos[k+1]){
+                    ll sum=0;
+                    for(ll z=j-1;z<=k-1;z++){
+                        sum+=(data[pos[z+1]][z]-data[i][z]);
+                    }
+                    if(sum>maxx){           for(ll k=j;k<=p;k++){
+                if(pos[j-1]!=pos[k+1]){
+                    ll sum=0;
+                    for(ll z=j-1;z<=k-1;z++){
+                        sum+=(data[pos[z+1]][z]-data[i][z]);
+                    }
+                       vector<ll> pos(p+2);
+        ll maxx=0,l=-1,r=-1;
+        for(ll j=1;j<=p;j++){
+            for(ll k=j;k<=p;k++){
+                if(pos[j-1]!=pos[k+1]){
+                    ll sum=0;
+                    for(ll z=j-1;z<=k-1;z++){
+                        sum+=(data[pos[z+1]][z]-data[i][z]);
+                    }
+                    if(sum>maxx){           for(ll k=j;k<=p;k++){
+                if(pos[j-1]!=pos[k+1]){
+                    ll sum=0;
+                    for(ll z=j-1;z<=k-1;z++){
+                        sum+=(data[pos[z+1]][z]-data[i][z]);
+                    }
+                       vector<ll> pos(p+2);
+    pos[0]=-1;pos[p+1]=-2;
+    for(ll i=1;i<=p;i++)
+        pos[i]=0;
+                    if(sum>maxx){
+                        maxx=sum;
+                        l=j;
+                        r=k;
+                    }
+                }
+            }
+        }i]=0;
+    for(ll i=1;i<d;i++){
+        ll maxx=0,l=-1,r=-1;
+        for(ll j=1;j<=p;j++){
+            for(ll k=j;k<=p;k++){
+                if(pos[j-1]!=pos[k+1]){
+                    ll sum=0;
+                    for(ll z=j-1;z<=k-1;z++){
+                        sum+=(data[pos[z+1]][z]-data[i][z]);
+                    }
+                    if(sum>maxx){
+                        maxx=sum;
+                        l=j;
+                        r=k;
+                    }
+                }
+            }
+        }
+        
+        .penguin-bottom {
+    top: 40%;
+    left: 23.5%;
+    background: var(--penguin-skin, black);
+    width: 53%;
+    height: 45%;
+    border-radius: 70% 70% 100% 100%;
+  }
+  .penguin-bottom {
+    top: 40%;
+    left: 23.5%;
+    background: var(--penguin-skin, black);
+    width: 53%;
+    height: 45%;
+    border-radius: 70% 70% 100% 100%;
+  }
+  
+        if(l!=-1){
+            for(ll j=l;j<=r;j++)
+                pos[j]=i;
+        }
+    }
+    ll ans=0;
+    for(ll i=1;i<=p;i++)
+        cout<<pos[i]<<" ";
+    for(ll i=1;i<=p;i++)
+        ans+=data[pos[i]][i-1];
+    cout<<ans<<"\n";
+    return 0;
+}
+class doubleHash
+{
+public:
+    
+    long int *hash
+
+    void insertHash(int key) 
+    { 
+        if (isFull()) 
+            return; 
+
+        int index = hash1(key); 
+        if (hashTable[index] != -1)
+         { 
+            int index2 = hash2(key); 
+            int i = 1; 
+            while (1) {  
+                       int newIndex = (index + i * index2) % SIZE; 
+                       if (hashTable[newIndex] == -1)
+                        { 
+                        hashTable[newIndex] = key; 
+                        break; 
+                        } 
+                        i++; 
+                        } 
+        } 
+  
+        else hashTable[index] = key;
+             
+        curr_size++; 
+    }

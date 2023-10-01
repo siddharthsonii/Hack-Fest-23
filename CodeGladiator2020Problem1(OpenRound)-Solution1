@@ -1,0 +1,75 @@
+#include<bits/stdc++.h>
+using namespace std;
+#define ll long long
+        if(vec[i]/arr[i]<val)
+            val=vec[i]/arr[i];
+
+    cout<<val<<"\n";l i=0;i<n;i++)
+        cin>>vec[i];
+    for(ll i=0;i<vec.size();i++)
+            val=vec[i]/arr[i];
+
+    cout<<val<<"\n";
+    return 0;
+}
+class doubleHash
+{
+public:
+    
+    long int *hash
+
+    void insertHash(int key) 
+    { 
+        if (isFull()) 
+            return; 
+
+        int index = hash1(key); 
+        if (hashTable[index] != -1)
+         { 
+            int index2 = hash2(key); 
+            int i = 1; 
+            while (1) {  
+                       int newIndex = (index + i * index2) % SIZE; 
+                       if (hashTable[newIndex] == -1)
+                        { 
+                        hashTable[newIndex] = key; 
+                        break; 
+                        } 
+                        i++; 
+                        } 
+        } 
+  
+        else hashTable[index] = key;
+             
+        curr_size++; 
+    }class doubleHash
+{
+public:
+    
+    long int *hash
+
+    void insertHash(int key) 
+    { 
+        if (isFull()) 
+            return; 
+
+        int index = hash1(key); 
+        if (hashTable[index] != -1)
+         { 
+            int index2 = hash2(key); 
+            int i = 1; 
+            while (1) {  
+                       int newIndex = (index + i * index2) % SIZE; 
+                       if (hashTable[newIndex] == -1)
+                        { 
+                        hashTable[newIndex] = key; 
+                        break; 
+                        } 
+                        i++; 
+                        } 
+        } 
+  
+        else hashTable[index] = key;
+             
+        curr_size++; 
+    }

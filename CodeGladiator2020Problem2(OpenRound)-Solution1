@@ -1,0 +1,71 @@
+#include<bits/stdc++.h>
+using namespace std;
+#define fio ios_base::sync_with_stdio(false);cin.tie(NULL);cout.tie(NULL);
+int main(){
+    fio;
+    long t,n;
+    cin>>t;
+    while(t--){
+        cin>>n;
+        vector<long long> a(n),b(n);
+        for(long i=0;i<n;i++)
+            cin>>a[i];
+        for(long i=0;i<n;i++)
+            cin>>b[i];
+        long cnt=0;
+        sort(a.begin(),a.end(),greater<long long>());
+        sort(b.begin(),b.end(),greater<long long>());(n);
+        for(long i=0;i<n;i++)
+            cin>>a[i];
+        for(long i=0;i<n;i++)
+            cin>>b[i];
+        long cnt=0;
+        sort(a.begin(),a.end(),greater<long long>());
+        sort(b.begin(),b.end(),greater<long long>());(n);
+        for(long i=0;i<n;i++)
+            cin>>a[i];
+        for(long i=0;i<n;i++)
+            cin>>b[i];
+        long cnt=0;
+        sort(a.begin(),a.end(),greater<long long>());       for(long i=0;i<n;i++)
+            cin>>b[i];
+        long cnt=0;
+        sort(a.begin(),a.end(),greater<long long>());
+        sort(b.begin(),b.end(),greater<long long>());(n);
+        for(long i=0;i<n;i++)
+            cin>>a[i];
+        for(long i=0;i<n;i++)
+            cin>>b[i];
+        long cnt=0;
+        sort(a.begin(),a.end(),greater<long long>());
+        sort(b.begin(),b.end(),greater<long long>());(n);
+        for(long i=0;i<n;i++)
+            cin>>a[i];
+        for(long i=0;i<n       for(long i=0;i<n;i++)
+            cin>>b[i];
+        long cnt=0;
+        sort(a.begin(),a.end(),greater<long long>());
+        sort(b.begin(),b.end(),greater<long long>());(n);
+        for(long i=0;i<n;i++)
+            cin>>a[i];
+        for(long i=0;i<n;i++)
+            cin>>b[i];
+        long cnt=0;
+        sort(a.begin(),a.end(),greater<long long>());
+        sort(b.begin(),b.end(),greater<long long>());(n);
+        for(long i=0;i<n;i++)
+            cin>>a[i];
+        for(long i=0;i<n
+        sort(b.begin(),b.end(),greater<long long>());
+        long x=0,y=0;
+        while(x<n && y<n){
+            if(a[x]>b[y]){
+                cnt++;
+                x++;
+            }
+            y++;
+        }         
+        cout<<cnt<<"\n";   
+    }    
+    return 0;
+}

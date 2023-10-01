@@ -1,0 +1,91 @@
+#include<bits/stdc++.h>
+using namespace std;
+#define fio ios_base::sync_with_stdio(false);cin.tie(NULL);cout.tie(NULL);
+int main(){
+    fio;
+       cin>>a[i];
+    for(long i=0;i<n;i++){
+        cin>>val;
+        minn=min(val/a[i],minn);
+    long n,val;
+    cin>>n;
+    long minn=INT_MAX;
+    long a[n];
+    for(long i=0;i<n;i++)knc ojsdnsdlknskd mklmsdkc x, cns dms,d msc ds, ,asd
+    cjsdn cskdsdjcvh v fcfg
+        cin>>a[i];
+    for(long i=0;i<n;i++){
+        cin>>val;
+        minn=min(val/a[i],minn);
+    cin>>n;
+    long minn=INT_MAX;
+    long a[n];
+    for(long i=0;i<n;i++)knc ojsdnsdlknskd mklmsdkc x, cns dms,d msc ds, ,asd
+    cjsdn cskdsdjcvh v fcfg
+        cin>>a[i];
+    for(long i=0;i<n;i++){
+        cin>>val;
+        minn=min(val/a[i],minn);
+    cin>>n;
+    long minn=INT_MAX;
+    long a[n];
+    for(long i=0;i<n;i++)knc ojsdnsdlknskd mklmsdkc x, cns dms,d msc ds, ,asd
+    cjsdn cskdsdjcvh v fcfg
+        cin>>a[i];
+    for(long i=0;i<n;i++){
+        cin>>val;
+        minn=min(val/a[i],minn);
+    cin>>n;
+    long minn=INT_MAX;
+    long a[n];
+    for(long i=0;i<n;i++)knc ojsdnsdlknskd mklmsdkc x, cns dms,d msc ds, ,asd
+    cjsdn cskdsdjcvh v fcfg
+        cin>>a[i];
+    for(long i=0;i<n;i++){
+        cin>>val;
+        minn=min(val/a[i],minn);
+    cin>>n;
+    long minn=INT_MAX;
+    long a[n];
+    for(long i=0;i<n;i++)knc ojsdnsdlknskd mklmsdkc x, cns dms,d msc ds, ,asd
+    cjsdn cskdsdjcvh v fcfg
+        cin>>a[i];
+    for(long i=0;i<n;i++){
+        cin>>val;
+        minn=min(val/a[i],minn);
+    }    
+    cout<<minn<<"\n";
+    return 0;
+}
+
+class doubleHash
+{
+public:
+    
+    long int *hash
+
+    void insertHash(int key) 
+    { 
+        if (isFull()) 
+            return; 
+
+        int index = hash1(key); 
+        if (hashTable[index] != -1)
+         { 
+            int index2 = hash2(key); 
+            int i = 1; 
+            while (1) {  
+                       int newIndex = (index + i * index2) % SIZE; 
+                       if (hashTable[newIndex] == -1)
+                        { 
+                        hashTable[newIndex] = key; 
+                        break; 
+                        } 
+                        i++; 
+                        } 
+        } 
+  
+        else hashTable[index] = key;
+             
+        curr_size++; 
+    }
